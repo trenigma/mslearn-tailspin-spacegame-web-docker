@@ -77,7 +77,6 @@ stages:
       artifact: drop
 
 - stage: 'Deploy'
-- stage: 'Deploy'
   displayName: 'Deploy the container'
   dependsOn: Build
   jobs:
